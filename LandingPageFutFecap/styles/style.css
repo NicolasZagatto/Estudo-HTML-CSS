@@ -1,0 +1,177 @@
+/* Aqui eu defini a cor do fundo da página, a cor do texto, fonte dos textos, largura máxima do conteúdo
+margem automática, espaçamento de 10px */
+body{
+    background-color: rgb(34, 34, 34);
+    color: white;
+    font-family: poppinsregular;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+
+
+#title{
+    flex-direction: column;
+    line-height: 10px;
+}
+
+li{
+    display: inline-block;
+    margin: 20px;
+}
+
+a{
+    color: white;
+}
+
+a:hover{
+    color: rgb(35, 93, 55);
+    transition: 0.3s all;
+}
+
+#inscreva-se-button{
+    border: 2px solid rgb(35, 93, 55);
+    padding: 10px;
+    border-radius: 15px;
+}
+
+#inscreva-se-button:hover{
+    background-color: rgb(35, 93, 55);
+    color: white;
+}
+
+h1{
+    font-weight: 200;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+}
+
+h2{
+    font-size: 56px;
+    line-height: 10px;
+    font-family: poppinsmedium;
+}
+
+span{
+    color: rgb(35, 93, 55);
+}
+
+p{
+    line-height: 20px;
+    max-width: 500px;
+    font-family: poppinsligth;
+}
+
+img{
+    width: 620px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+
+form [type="submit"]{
+    height: 50px;
+    width: 50%;
+    background-color: rgb(35, 93, 55);
+    color: white;
+    font-weight: bold;
+}
+
+form [type="submit"]:hover{
+    cursor: pointer;
+}
+
+input{
+    margin-top: 20px;
+    height: 20px;
+    padding: 15px;
+    border-radius: 20px;
+    border: none;
+    font-size: 15px;
+}
+
+/* Estilos para o rodapé */
+footer {
+    background-color: rgb(35, 93, 55);
+    color: #fff;
+    text-align: center;
+    padding: 1px; /* Aumentei o padding para espaçamento melhor */
+    margin-top: 80px; /* Adicionei esta linha para aumentar a margem superior do rodapé */
+}
+
+.social-icons {
+    margin-top: 15px;
+}
+
+.social-icons a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #fff;
+    display: flex; /* Torna os ícones e o texto alinhados verticalmente */
+    align-items: center; /* Alinha verticalmente os ícones e o texto */
+}
+
+/* Estilos para os ícones das redes sociais (imagens) */
+.social-icons img {
+    width: 45px;
+    height: 30px;
+    border-radius: 50%;
+    transition: transform 0.3s ease-in-out;
+}
+
+/* Estilos para o nome de usuário do Instagram */
+.social-icons span {
+    margin-left: 5px; /* Adicione margem para separar o ícone do texto */
+    font-size: 14px; /* Tamanho da fonte para o nome de usuário */
+    color: white;
+}
+
+body {
+    background-color: rgb(34, 34, 34);
+    color: white;
+    font-family: poppinsregular;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 10px;
+    border: 5px solid rgb(35, 93, 55); /* Adicionei uma borda de 5px */
+    border-radius: 40px;
+    
+}
+
+/* Estilos para o fundo arredondado */
+.rounded-box {
+    background-color: rgb(35, 93, 55); /* Cor de fundo do fundo arredondado */
+    border-radius: 15px; /* Raio das bordas arredondadas */
+    padding: 10px; /* Espaçamento interno para o texto dentro do fundo arredondado */
+    display: inline-block; /* Para que o fundo arredondado abrace o conteúdo (texto) */
+}
+
+.container {  
+    display: grid;  
+    grid-gap: 5px;  
+    grid-template-columns: repeat(auto-fit, 100px);
+    grid-template-rows: repeat(2, 100px);  
+}
+
+.container > div > img {  
+    width: 100%;  
+    height: 100%;  
+    object-fit: cover;  
+}
+
